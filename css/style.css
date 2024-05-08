@@ -1,0 +1,54 @@
+/*
+    Name: Lucas Rodrigues Moreira
+    Student ID: 200555440
+    E-mail: 200555440@student.georgianc.on.ca
+*/
+
+body{
+    background-image: url('../images/starwarsgalaxy.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2{
+    text-align: center;
+    color: azure;
+}
+.converter {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+label{
+    color: #fff;
+}
+
+button {
+    background-color: #241062;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Media query to be responsive in small screens */
+@media only screen and (max-width: 600px) {
+    .converter {
+        max-width: 100%;
+    }
+}
+#out{
+    text-align: center;
+    color: white;
+}
+img{
+    
+    width: 200px;
+    height: 200px;
+}
+
